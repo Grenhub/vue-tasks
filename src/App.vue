@@ -52,7 +52,7 @@ export default {
       );
     },
     async fetchTasks() {
-      const res = await fetch('api/tasks');
+      const res = await fetch("api/tasks");
 
       const data = await res.json();
 
